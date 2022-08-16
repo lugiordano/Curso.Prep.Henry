@@ -6,6 +6,7 @@ const { stringify } = require("git-url-parse");
 const nuevaString = 'hola';
 
 // Crea una variable numérica, puede ser cualquier número:
+<<<<<<< HEAD
 const nuevoNum = 5;
 
 // Crea una variable booleana:
@@ -21,6 +22,21 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 const nuevoModulo = 21 % 5 === 1;
 
 
+=======
+const nuevoNum = '5';
+
+// Crea una variable booleana:
+const nuevoBool = 'false';
+
+// Resuelve el siguiente problema matemático:
+const nuevaResta = 10 - '5' === 5;
+
+// Resuelve el siguiente problema matemático:
+const nuevaMultiplicacion = 10 * '4' === 40 ;
+
+// Resuelve el siguiente problema matemático:
+const nuevoModulo = 21 % 5 === '1';
+>>>>>>> 0f511749bf7388f4b2d2ca509f94c429671d51b2
 
 
 // En los próximos 22 problemas, deberás completar la función.

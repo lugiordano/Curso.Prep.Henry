@@ -6,7 +6,6 @@ const { stringify } = require("git-url-parse");
 const nuevaString = 'hola';
 
 // Crea una variable numérica, puede ser cualquier número:
-<<<<<<< HEAD
 const nuevoNum = 5;
 
 // Crea una variable booleana:
@@ -22,21 +21,6 @@ const nuevaMultiplicacion = 10 * 4 === 40 ;
 const nuevoModulo = 21 % 5 === 1;
 
 
-=======
-const nuevoNum = '5';
-
-// Crea una variable booleana:
-const nuevoBool = 'false';
-
-// Resuelve el siguiente problema matemático:
-const nuevaResta = 10 - '5' === 5;
-
-// Resuelve el siguiente problema matemático:
-const nuevaMultiplicacion = 10 * '4' === 40 ;
-
-// Resuelve el siguiente problema matemático:
-const nuevoModulo = 21 % 5 === '1';
->>>>>>> 0f511749bf7388f4b2d2ca509f94c429671d51b2
 
 
 // En los próximos 22 problemas, deberás completar la función.
@@ -98,10 +82,8 @@ function tienenMismaLongitud(str1, str2) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-     if (str1.lenght === str2.lenght); {
-      return true;
-     }
-     return false;
+    return (str1.length === str2.length);
+      
 }
 
 function menosQueNoventa(num) {
@@ -109,11 +91,8 @@ function menosQueNoventa(num) {
   // De lo contrario, devuelve "false"
   // Tu código:
 
-     if (num < 90){
-      return true;
+    return (num < 90);
      }
-      return false;
-    }
 
 function mayorQueCincuenta(num) {
   // Devuelve "true" si el argumento de la función "num" es mayor que cincuenta
@@ -122,9 +101,10 @@ function mayorQueCincuenta(num) {
 
      if (num > 50){
       return true;
-     }
-     return false;
     }
+      return false;
+     }
+    
 
 function obtenerResto(x, y) {
   // Obten el resto de la división de "x" entre "y"
@@ -176,13 +156,13 @@ function elevar(num, exponent) {
   // Devuelve el valor de "num" elevado al exponente dado en "exponent"
   // Tu código:
 
-    return (num, exponent);
+   return Math.pow(num, exponent);
 }
 
 function redondearNumero(num) {
   // Redondea "num" al entero más próximo y devuélvelo
   // Tu código:
-   
+
     return Math.round(num);
 }
 
